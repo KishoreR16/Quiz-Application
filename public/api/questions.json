@@ -1,0 +1,114 @@
+{
+    "question": [
+        {
+            "id": "1",
+            "question": "Which state assembly recently passed a resolution to abolish the state’s legislative council?",
+            "options": [
+                "Telangana",
+                "Maharashtra",
+                "Andhra Pradesh",
+                "Karnataka"
+            ],
+            "answer": "Andhra Pradesh"
+        },
+        {
+            "id": "2",
+            "question": "Which state government recently approved Ground water Act, 2020, to improve groundwater level?",
+            "options": [
+                "Bihar",
+                "Uttar Pradesh",
+                "Jharkhand",
+                "Rajasthan"
+            ],
+            "answer": "Uttar Pradesh"
+        },
+        {
+            "id": "3",
+            "question": "Which is the largest Cave in India ?",
+            "options": [
+                "Ajanta Caves",
+                "Amarnath Cave",
+                "Borra Caves",
+                "Undavalli Cave"
+            ],
+            "answer": "Amarnath Cave"
+        },
+        {
+            "id": "4",
+            "question": "Which is the largest Artificial Lake in India ?",
+            "options": [
+                "Govind Sagar Lake, Bakra Nangal",
+                "Himayat Sagar, Telangana",
+                "Rabindra Sarobar, West Bengal",
+                "Barua Sagar Tal, Uttar Pradesh"
+            ],
+            "answer": "Govind Sagar Lake, Bakra Nangal"
+        },
+        {
+            "id": "5",
+            "question": "Which is the largest Zoo in India ?",
+            "options": [
+                "Bannerghatta National Park, Bengaluru, Karnataka",
+                "Jaipur Zoo, Rajasthan",
+                "Zoological Garden, Kolkata",
+                "Nehru Zoological Park, New Delhi"
+            ],
+            "answer": "Zoological Garden, Kolkata"
+        },
+        {
+            "id": "6",
+            "question": "Which is the largest Public Sector Bank in India ?",
+            "options": [
+                "Industrial Bank of India",
+                "Reserve Bank of India",
+                "Allahabad Bank of India",
+                "State Bank of India"
+            ],
+            "answer": "State Bank of India"
+        },
+        {
+            "id": "7",
+            "question": "Which is the largest Desert in India ?",
+            "options": [
+                "Kutch, Gujarat",
+                "Thar Desert, Rajasthan",
+                "Jaisalmer, Rajasthan",
+                "Spiti Desert, Himachal Pradesh"
+            ],
+            "answer": "Thar Desert, Rajasthan"
+        },
+        {
+            "id": "8",
+            "question": "The Central Rice Research Station is situated in?",
+            "options": [
+                "Chennai",
+                "Cuttack",
+                "bangalore",
+                "Hyderabad"
+            ],
+            "answer": "Cuttack"
+        },
+        {
+            "id": "9",
+            "question": "The country that has the highest in Barley Production?",
+            "options": [
+                "China",
+                "India",
+                "Russia",
+                "France"
+            ],
+            "answer": "Russia"
+        },
+        {
+            "id": "10",
+            "question": "The hottest planet in the solar system?",
+            "options": [
+                "Mercury",
+                "Venus",
+                "Mars",
+                "Jupiter"
+            ],
+            "answer": "Venus"
+        }
+    ]
+}

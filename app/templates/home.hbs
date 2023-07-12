@@ -1,0 +1,12 @@
+{{page-title "Home"}}
+{{this.setLength}}
+<div class="home-page">
+    <h2>QUIZOHILIC</h2>
+    <LinkTo @route="quiz" @model="1" style="text-decoration: none;">
+        <button class="start-button" type="button">
+            Start Quiz
+        </button>
+    </LinkTo>
+</div>
+
+{{outlet}}

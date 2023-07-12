@@ -1,0 +1,38 @@
+.question {
+
+    margin-top: 5%;
+    margin-left: 15%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width:65%;
+    position: fixed;
+
+    .radio
+    {
+        display:inline;
+    }
+
+    .quiz-button {
+        text-decoration: none;
+        border: none;
+        padding: 12px 25px;
+        font-size: 18px;
+        background-color: green;
+        font-weight: bold;
+        color: #fff;
+        border-radius: 25px;
+        box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        cursor: pointer;
+        outline: none;
+        transition: 0.2s all;
+
+    }
+
+    .quiz-button:active {
+        transform: scale(0.95);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+}

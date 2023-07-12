@@ -1,0 +1,51 @@
+{{page-title "Quiz"}}
+<HomeButton/>
+    <div class="question">
+        
+        Question No {{this.model.id}}<br><br>
+        {{this.model.question}}<br><br><br>
+        {{#each this.model.options as |options|}}
+
+        {{!-- template-lint-disable no-action --}}
+        <input type="radio" class="radio" id={{options}} name="options" value={{options}} onclick={{action "selected"
+            this.model.id this.model.answer}}>
+        <label for={{options}}>{{options}}</label><br>
+        <br>
+        {{/each}}
+
+        
+
+        {{this.setAnswer this.model.id}}
+
+        {{#if (this.show1 this.model.id 1)}}
+        <LinkTo @route="quiz" @model={{this.nextQuestion this.model.id}}>
+            <button class="quiz-button" type="button">
+                Next Question
+            </button>
+        </LinkTo>
+        {{else if (this.show2 this.model.id)}}
+        <LinkTo @route="quiz" @model={{this.previousQuestion this.model.id}}>
+            <button class="quiz-button" type="button">
+                Previous Question
+            </button>
+        </LinkTo><br><br>
+        <LinkTo @route="quiz" @model={{this.nextQuestion this.model.id}}>
+            <button class="quiz-button" type="button">
+                Next Question
+            </button>
+        </LinkTo>
+        {{else}}
+        <LinkTo @route="quiz" @model={{this.previousQuestion this.model.id}}>
+            <button class="quiz-button" type="button">
+                Previous Question
+            </button>
+        </LinkTo><br><br>
+        <LinkTo @route="results">
+            <button class="quiz-button" type="button">
+                Submit
+            </button>
+        </LinkTo>
+        {{/if}}
+    </div>
+    
+{{outlet}}

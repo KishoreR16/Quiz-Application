@@ -1,0 +1,24 @@
+{{page-title "Results"}}
+<HomeButton style="margin-top:5%;"/>
+<div class="result-page">
+    
+    <div class="score">Score :{{this.score}}</div>
+    <br>
+    {{#each this.model as |model|}}
+    Question No {{model.id}}<br><br>
+    {{model.question}} <br><br>
+    {{#each model.options as |options|}}
+
+    {{!-- template-lint-disable no-action --}}
+    {{!-- template-lint-disable require-input-label --}}
+    <input type="radio" class={{model.id}} name={{model.id}} value={{options}} onclick="return false;">
+    <label for={{options}}>{{options}}</label><br>
+    <br>
+    {{/each}}
+    {{this.setAnswer model.id}}
+    Answer:{{model.answer}}<br><br>
+    Result:{{this.result model.id model.answer}}
+    <hr>
+    {{/each}}
+
+</div>

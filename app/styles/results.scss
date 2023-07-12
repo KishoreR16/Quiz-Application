@@ -1,0 +1,26 @@
+.result-page{
+    color:white;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 15%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width:65%;
+    height: 50%;
+    position: fixed;
+    overflow: scroll;
+    z-index:1
+    
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+
+.score {
+    position: fixed;
+    margin-left:60%;
+    font-size: 35px;
+}
